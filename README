@@ -29,18 +29,18 @@ All DICOM files are converted to Nifti-1 files by mri_convert in FreeSurfer.
 Task event files ('sub-\*_ses-\*_task-\*_run-\*_events.tsv') contains recorded event (stimuli presentation, subject responses, etc.) during fMRI runs.
 In task event files for image presentation experiments ('task-perception'), each column represents:
 
-- 'onset': onset time (sec) of an event
-- 'duration': duration (sec) of the event
+- 'onset': onset time of an event (sec)
+- 'duration': duration of the event (sec)
 - 'event_type': type of the event (1: Stimulus presentation block, 2: Repetition block, -1, -2, and -3: Initial, inter-trial, and post rest blocks without visual stimulus)
-- 'stimulus_id': ID for the stimulus
-- 'response_time': time of button press at the block, elapsed time (sec) from the beginning of each run ('0' means that a subject did not press the button in the block)
+- 'stimulus_id': ID for the stimulus presented in the block
+- 'response_time': time of button press in the block, elapsed time from the beginning of each run (sec; '0' means that a subject did not press the button in the block)
 
 In task event files for imagery experiments ('task-imagery'), each column in represents:
 
 - 'onset': onset time (sec) of an event
 - 'duration': duration (sec) of the event
 - 'trial_no': trial (block) number of the event
-- 'event_type': type of the event (-1: rest period, 1: cue presentation period, 2: imagery period, 3: evaluation of imagery quality period, 4: inter-trial and post rest period)
-- 'category_id': ImageNet/WordNet synset ID of a synset (category) which the subject was instructed to imagine at the block
-- 'response_time': time of button press for imagery quality evaluation at the block, elapsed time (sec) from the beginning of each run
+- 'event_type': type of the event (-1: rest block, 1: cue presentation period, 2: imagery period, 3: evaluation of imagery quality period, 4: inter-trial and post rest period)
+- 'category_id': ImageNet/WordNet synset ID of a synset (category) which the subject was instructed to imagine in the block
+- 'response_time': time of button press for imagery quality evaluation at the block, elapsed time from the beginning of each run (sec)
 - 'evaluation': vividness of their mental imagery evaluated by the subject (5: very vivid, 4: fairly vivid, 3: rather vivid, 2: not vivid, 1: cannot recognize the target image)
