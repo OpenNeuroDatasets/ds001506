@@ -35,7 +35,14 @@ In task event files for image presentation experiments ('task-perception'), each
 - 'stimulus_id': ID for the stimulus presented in the block
 - 'response_time': time of button press in the block, elapsed time from the beginning of each run (sec; '0' means that a subject did not press the button in the block)
 
-Stimulus ID is a float number in which the integer part indicates WordNet ID for the synset (category) and the decimal part indicates image ID. For example, '1518878.005958' represents 'image 5958 in synset n01518878 (‘ostrich’)'. Due to license issues, we do not include the stimulus images in the data repository. A script downloading the stimulus images are available at <https://github.com/KamitaniLab/GenericObjectDecoding>. Downloaded image files are named as 'XXXX-YYYY.JPEG', where 'XXXX' and 'YYYY' represents the WordNet ID and image ID, respectively (e.g., 'n01518878_5958.JPEG').
+In the natural image presentation experiments, stimulus ID is a number in which the integer part indicates WordNet ID for the synset (category) and the decimal part indicates image ID. For example, '1518878.005958' represents 'image 5958 in synset n01518878 (‘ostrich’)'. Due to license issues, we do not include the stimulus images in the data repository. A script downloading the stimulus images are available at <https://github.com/KamitaniLab/GenericObjectDecoding>. Downloaded image files are named as 'XXXX-YYYY.JPEG', where 'XXXX' and 'YYYY' represents the WordNet ID and image ID, respectively (e.g., 'n01518878_5958.JPEG').
+
+In the geometric shape and alphabetical letter presentation experiments, the stimuli consisted of a total of 40 combinations of 5 shapes (filled square, small opened square, large opened square, +, and X) and 8 colors (red, green, blue, cyan, magenta, yellow, white, and black). The stimulus ID indicates:
+
+- 1-5: red, 6-10: green, 11-15: blue, 16-20: yellow, 21-25: magenta, 26-30: cyan, 31-35: white, and 36-40: black,
+- in each color group, the 1st, 2nd, 3rd, 4th and 5th stimuli are filled square, small opened square, large opened square, +, and X, respectively.
+
+In the alphabetical letter presentation experiments, stimulus ID of 1 to 10 represent 'A', 'C', 'E', 'I', 'N', 'O', 'R', 'S', 'T', and 'U', respectively.
 
 In task event files for imagery experiments ('task-imagery'), each column in represents:
 
