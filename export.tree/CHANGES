@@ -1,0 +1,11 @@
+1.2.0	2018-11-21
+
+	- Add ROI mask images
+
+1.1.0	2018-09-11
+
+	- Deface T1w images.
+
+1.0.0	2018-09-10
+
+	- Initial release.
