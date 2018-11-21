@@ -23,6 +23,7 @@ The dataset also includes a T1-weighted anatomical reference image for each subj
 The T1-weighted images were scanned only once for each subject in a separate scanning session and are stored in 'ses-anatomy' directories.
 The T1-weighted images were defaced by pydeface (<https://pypi.python.org/pypi/pydeface>).
 All DICOM files are converted to Nifti-1 files by mri_convert in FreeSurfer.
+In addition, the dataset contains mask images of manually defined ROIs for each subject in 'sourcedata' directory (See 'README' in 'sourcedata' for more details).
 
 ### Task event files
 
