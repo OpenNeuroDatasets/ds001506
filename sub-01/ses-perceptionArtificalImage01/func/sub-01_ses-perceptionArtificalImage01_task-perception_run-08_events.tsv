@@ -1,47 +1,47 @@
-onset	duration	event_type	stimulus_id	response_time
-0	32	-1	n/a	0.0
-32	8	1	24.0	0.0
-40	8	1	27.0	0.0
-48	8	1	2.0	0.0
-56	8	1	12.0	0.0
-64	8	1	3.0	0.0
-72	8	2	3.0	78.377859514
-80	8	1	4.0	80.37964903
-88	8	1	28.0	0.0
-96	8	1	37.0	0.0
-104	8	1	25.0	0.0
-112	8	1	7.0	0.0
-120	8	1	19.0	0.0
-128	8	1	33.0	0.0
-136	8	1	31.0	0.0
-144	8	1	9.0	0.0
-152	8	1	22.0	0.0
-160	8	1	21.0	0.0
-168	8	1	30.0	0.0
-176	8	1	20.0	0.0
-184	8	1	5.0	0.0
-192	8	1	26.0	0.0
-200	8	1	16.0	0.0
-208	8	1	11.0	0.0
-216	8	1	39.0	0.0
-224	8	1	29.0	0.0
-232	8	1	14.0	0.0
-240	8	1	15.0	0.0
-248	8	1	18.0	0.0
-256	8	1	32.0	0.0
-264	8	2	32.0	265.035931609
-272	8	1	34.0	0.0
-280	8	1	1.0	0.0
-288	8	1	6.0	0.0
-296	8	2	6.0	297.20214035099997
-304	8	1	23.0	0.0
-312	8	1	10.0	0.0
-320	8	2	10.0	321.517816393
-328	8	1	36.0	0.0
-336	8	1	35.0	0.0
-344	8	1	17.0	0.0
-352	8	1	8.0	0.0
-360	8	1	38.0	0.0
-368	8	1	13.0	0.0
-376	8	1	40.0	0.0
-384	6	-2	n/a	0.0
+onset	duration	event_type	stimulus_id	stimulus_name	category_index	image_index	response_time
+0	32	-1	n/a	n/a	n/a	n/a	n/a
+32	8	1	24	colorExpStim24_magenta_+	24	24	n/a
+40	8	1	27	colorExpStim27_cyan_smallring	27	27	n/a
+48	8	1	2	colorExpStim02_red_smallring	2	2	n/a
+56	8	1	12	colorExpStim12_blue_smallring	12	12	n/a
+64	8	1	3	colorExpStim03_red_largering	3	3	n/a
+72	8	2	3	colorExpStim03_red_largering	3	3	78.377860
+80	8	1	4	colorExpStim04_red_+	4	4	80.379649
+88	8	1	28	colorExpStim28_cyan_largering	28	28	n/a
+96	8	1	37	colorExpStim37_black_smallring	37	37	n/a
+104	8	1	25	colorExpStim25_magenta_X	25	25	n/a
+112	8	1	7	colorExpStim07_green_smallring	7	7	n/a
+120	8	1	19	colorExpStim19_yellow_+	19	19	n/a
+128	8	1	33	colorExpStim33_white_largering	33	33	n/a
+136	8	1	31	colorExpStim31_white_square	31	31	n/a
+144	8	1	9	colorExpStim09_green_+	9	9	n/a
+152	8	1	22	colorExpStim22_magenta_smallring	22	22	n/a
+160	8	1	21	colorExpStim21_magenta_square	21	21	n/a
+168	8	1	30	colorExpStim30_cyan_X	30	30	n/a
+176	8	1	20	colorExpStim20_yellow_X	20	20	n/a
+184	8	1	5	colorExpStim05_red_X	5	5	n/a
+192	8	1	26	colorExpStim26_cyan_square	26	26	n/a
+200	8	1	16	colorExpStim16_yellow_square	16	16	n/a
+208	8	1	11	colorExpStim11_blue_square	11	11	n/a
+216	8	1	39	colorExpStim39_black_+	39	39	n/a
+224	8	1	29	colorExpStim29_cyan_+	29	29	n/a
+232	8	1	14	colorExpStim14_blue_+	14	14	n/a
+240	8	1	15	colorExpStim15_blue_X	15	15	n/a
+248	8	1	18	colorExpStim18_yellow_largering	18	18	n/a
+256	8	1	32	colorExpStim32_white_smallring	32	32	n/a
+264	8	2	32	colorExpStim32_white_smallring	32	32	265.035932
+272	8	1	34	colorExpStim34_white_+	34	34	n/a
+280	8	1	1	colorExpStim01_red_square	1	1	n/a
+288	8	1	6	colorExpStim06_green_square	6	6	n/a
+296	8	2	6	colorExpStim06_green_square	6	6	297.202140
+304	8	1	23	colorExpStim23_magenta_largering	23	23	n/a
+312	8	1	10	colorExpStim10_green_X	10	10	n/a
+320	8	2	10	colorExpStim10_green_X	10	10	321.517816
+328	8	1	36	colorExpStim36_black_square	36	36	n/a
+336	8	1	35	colorExpStim35_white_X	35	35	n/a
+344	8	1	17	colorExpStim17_yellow_smallring	17	17	n/a
+352	8	1	8	colorExpStim08_green_largering	8	8	n/a
+360	8	1	38	colorExpStim38_black_largering	38	38	n/a
+368	8	1	13	colorExpStim13_blue_largering	13	13	n/a
+376	8	1	40	colorExpStim40_black_X	40	40	n/a
+384	6	-2	n/a	n/a	n/a	n/a	n/a
