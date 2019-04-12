@@ -1,0 +1,19 @@
+{
+    "Name": "Deep Image Reconstruction",
+    "License": "",
+    "Authors": [
+        "Guohua Shen",
+        "Tomoyasu Horikawa",
+        "Kei Majima",
+        "Yukiyasu Kamitani"
+    ],
+    "Acknowledgements": "",
+    "HowToAcknowledge": "",
+    "Funding": "",
+    "ReferencesAndLinks": [
+        "Shen, Horikawa, Majima, and Kamitani (2017) Deep image reconstruction from human brain activity. bioRxiv. https://www.biorxiv.org/content/early/2017/12/30/240317",
+        "Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLOS Computational Biology. http://dx.doi.org/10.1371/journal.pcbi.1006633"
+    ],
+    "DatasetDOI": "10.18112/openneuro.ds001506.v1.3.0",
+    "BIDSVersion": "1.0.2"
+}
