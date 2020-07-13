@@ -1,0 +1,5 @@
+# Deep Image Reconstruction: ROI mask images
+
+'sourcedata/sub-*/anat' directories contain binary ROI mask images for each subject. The ROIs for V1, V2, V3, and hV4 were manually defined based on retinotopical mapping experiments. The ROIs for LOC, FFA, PPA, and HVC (higher visual cortex) are delineated based on functional localizer experiments.
+
+The mask images have the same size as the EPI images (voxel size, 2 x 2 x 2 mm; image resolution, 96 x 96 x 76) and are coregistered to the T1-weighted anatomical image of each subject. The Nifti files are named as '<subject>_mask_<hemisphere>_<ROI>.nii.gz'. For example, 'sub-01_mask_LH_V1d.nii.gz' is a mask image of 'left dorsal V1' in 'sub-01'.
